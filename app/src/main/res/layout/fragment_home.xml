@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/textfield_border"
+        android:hint="Search item..."
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:drawableRight="@drawable/ic_search"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/equipmentList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"/>
+
+</RelativeLayout>

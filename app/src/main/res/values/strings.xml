@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Amore</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginString">Already have an account? <font color='#2C2C2C'>Login</font></string>
+    <string name="regString">Dont have an account? <font color='#2C2C2C'>Register here.</font></string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string-array name="spinnerItems">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>
